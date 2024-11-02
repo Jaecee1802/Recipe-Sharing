@@ -9,3 +9,4 @@ featuredRecipesTitle.style.fontFamily = "Lora";
 recpName.innerHTML = "Homemade";
 recpName2.innerHTML = "Ready to Cook";
 recpName3.innerHTML = "Vegan"
+

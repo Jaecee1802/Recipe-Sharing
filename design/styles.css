@@ -26,7 +26,7 @@ body{
     flex-wrap: wrap;
     gap: 2%;
     list-style: none;
-    padding: 4vh;
+    padding: 2vh;
 }
 
 .nav-pal a:hover{
@@ -140,7 +140,7 @@ body{
 
     .pal-picture{
         height: 350px;
-        background-size: cover;
+        object-fit: cover;
     }
     
     .pal-abt-title{
@@ -151,6 +151,133 @@ body{
 
     .pal-about{
         max-width: 370px;
+    }
+
+    #featuredRecips{
+        text-align: center;
+    }
+
+    .platepal-nav ul{
+        display: none;
+    }
+
+    .pal-logo{
+        margin-bottom: 40px;
+    }
+
+    #pal-welcome-message{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .recipe-img{
+        max-width: 300px;
+    }
+
+    .abt-image{
+        max-width: 320px;
+        margin-top: -20px;
+    }
+
+    .pal-picture{
+        height: 350px;
+        object-fit: cover;
+    }
+    
+    .pal-abt-title{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 4vh;
+    }
+
+    .pal-about{
+        max-width: 340px;
+    }
+
+    #featuredRecips{
+        text-align: center;
+    }
+
+    .platepal-nav ul{
+        display: none;
+    }
+
+    .pal-logo{
+        margin-bottom: 40px;
+    }
+
+    #pal-welcome-message{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .recipe-img{
+        max-width: 250px;
+    }
+
+    .abt-image{
+        max-width: 280px;
+        margin-top: -20px;
+    }
+
+    .pal-picture{
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    .pal-abt-title{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 4vh;
+    }
+
+    .pal-about{
+        max-width: 280px;
+    }
+
+    #featuredRecips{
+        text-align: center;
+    }
+
+    .platepal-nav ul{
+        display: none;
+    }
+
+    .pal-logo{
+        margin-bottom: 40px;
+    }
+
+    #pal-welcome-message{
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .recipe-img{
+        max-width: 250px;
+    }
+
+    .abt-image{
+        max-width: 700px;
+        margin-top: -20px;
+    }
+
+    .pal-picture{
+        height: 650px;
+        object-fit: cover;
+    }
+    
+    .pal-abt-title{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 4vh;
+    }
+
+    .pal-about{
+        max-width: 700px;
     }
 
     #featuredRecips{
